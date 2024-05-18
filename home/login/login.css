@@ -1,0 +1,362 @@
+.h1 {
+  margin: 0;
+  font-size: var(font-size-xs);
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 3;
+  color: var(--color-white);
+  text-align: right;
+  align-self: stretch;
+  position: relative;
+
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+    color: var(--color-white);
+
+
+}
+.input-box {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 63px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-snow);
+  border: 3px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  width: 366px;
+    z-index: 3;
+
+}
+.phone-numberemailgmailcom {
+  position: absolute;
+  top: 19px;
+      z-index: 3;
+  left: 0;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  width: 338px;
+  height: 23px;
+  z-index: 1;
+}
+.phone-email-field {
+  position: absolute;
+  top: 36px;
+  left: 6px;
+  width: 429px;
+  height: 62px;
+      z-index: 3;
+
+}
+.email-input-child {
+  height: 38px;
+  width: 208px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  display: none;
+      z-index: 3;
+
+}
+.email-input,
+.h2 {
+  white-space: nowrap;
+}
+.h2 {
+  margin: 0;
+  width: 135px;
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  z-index: 2;
+}
+.email-input {
+  position: absolute;
+  top: 0;
+  left: 223px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 0 solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 3px 15px 11px;
+    z-index: 3;
+}
+.phone-email-input {
+  align-self: stretch;
+  height: 98px;
+  position: relative;
+}
+.password-box {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 69px;
+    font-size: var(--font-size-xs);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-snow);
+  border: 3px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  width: 366px;
+  z-index: 3;
+}
+.password {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  color: var(--color-darkslateblue);
+  text-align: center;
+  width: 210px;
+  height: 41px;
+  mix-blend-mode: normal;
+  z-index: 4;
+}
+.password-field {
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+}
+.input-area {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.auth-buttons-child {
+  height: 69px;
+  width: 362px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  display: none;
+  max-width: 100%;
+}
+.i {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-abel);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 4;
+}
+.auth-buttons,
+.auth-buttons-item {
+  width: 362px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  max-width: 100%;
+}
+.auth-buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 7px 30px var(--padding-mid);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+    z-index: 3;
+
+}
+.auth-buttons1:hover,
+.auth-buttons:hover {
+  background-color: var(--color-steelblue);
+}
+.auth-buttons-item {
+  height: 67px;
+  position: relative;
+  display: none;
+}
+.i1 {
+  width: 215px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-abel);
+  color: var(--color-white);
+  text-align: left;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.auth-buttons1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) 64px var(--padding-mid);
+  background-color: var(--color-darkslateblue);
+  width: 362px;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 3;
+}
+.auth-options {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 29px;
+  max-width: 100%;
+}
+.form-container,
+.main-container,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form-container {
+  width: 445px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.main-container,
+.parent {
+  flex-direction: column;
+}
+.parent {
+  width: 575px;
+  gap: 82px;
+  max-width: 118%;
+  flex-shrink: 0;
+}
+.main-container {
+  width: 488px;
+  padding: 0 0 45px;
+  box-sizing: border-box;
+  min-width: 488px;
+  min-height: 602px;
+  max-width: 100%;
+}
+.image-icon {
+  height: 1297.8px;
+  width: 900.4px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -50.8px;
+  left: -257px;
+  object-fit: contain;
+  z-index: 2;
+}
+.header-child,
+.icon,
+.logo-2-icon {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    z-index: 1;
+
+}
+.icon,
+.logo-2-icon {
+  top: 16px;
+  width: 234px;
+  height: 169px;
+  object-fit: cover;
+  z-index: 1;
+}
+.icon {
+  top: 770px;
+  height: 190px;
+}
+.header {
+  height: 960px;
+  width: 234px;
+  position: relative;
+  min-width: 234px;
+}
+.log-in-screen {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: url(log-in-screen@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: center;
+  font-size: 85px;
+  color: var(--color-white);
+  font-family: var(--font-abel);
+}
+@media screen and (max-width: 750px) {
+  .h1 {
+    font-size: 42px;
+  }
+  .header,
+  .main-container {
+    flex: 1;
+  }
+  .log-in-screen {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 675px) {
+  .parent {
+    gap: 41px;
+  }
+  .main-container {
+    padding-bottom: 29px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 25px;
+  }
+  .auth-buttons1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .parent {
+    gap: 20px;
+  }
+}

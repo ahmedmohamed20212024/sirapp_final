@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-abel: Abel;
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-darkslateblue: #394185;
+  --color-steelblue: #6169ab;
+  --color-white: #fff;
+  --color-snow: #fff8f8;
+  --color-cornflowerblue: #a4acf4;
+
+  /* Paddings */
+  --padding-8xs: 5px;
+  --padding-mid: 17px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}

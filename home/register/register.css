@@ -1,0 +1,309 @@
+.logo-2-icon {
+      align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+.email-field {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 4px dashed var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 753px;
+  height: 67px;
+  max-width: 100%;
+}
+.phone-number-or {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  width: 591px;
+  height: 61px;
+  z-index: 1;
+}
+.credentials {
+  align-self: stretch;
+  height: 79px;
+  position: relative;
+}
+.name-field-child {
+  height: 67px;
+  width: 753px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 4px dashed var(--color-darkslateblue);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.email_{
+width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 43px;
+  position: relative;
+  font-style: italic;
+  color: var(--color-darkslateblue);
+  text-align: left;
+  padding: 0;
+  z-index: 1;
+}
+.full-name {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 43px;
+  position: relative;
+  font-style: italic;
+  color: var(--color-darkslateblue);
+  text-align: left;
+  mix-blend-mode: normal;
+  padding: 0;
+  z-index: 1;
+  height: 30px;
+}
+.input-fields,
+.name-field {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.name-field {
+  width: 760px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 4px dashed var(--color-darkslateblue);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 0 0;
+}
+.input-fields {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.username-input {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 4px dashed var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 753px;
+  max-width: 100%;
+
+}
+.usernames {
+width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 43px;
+  position: relative;
+  font-style: italic;
+  color: var(--color-darkslateblue);
+  text-align: left;
+  padding: 0;
+  z-index: 1;
+}
+.username-field {
+  width: 767px;
+  height: 67px;
+  position: relative;
+  max-width: 100%;
+}
+.form-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+}
+.password-entry {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 4px dashed var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 753px;
+    max-width: 100%;
+
+}
+.password {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-weight: 800;
+  font-family: var(--font-abel);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 19px;
+  left: 0;
+  font-style: italic;
+  color: var(--color-darkslateblue);
+  text-align: left;
+  height: 30px;
+  mix-blend-mode: normal;
+  padding: 0;
+  z-index: 1;
+}
+.password-input-area {
+  align-self: stretch;
+  height: 67px;
+  position: relative;
+}
+.frame-child,
+.i {
+  position: relative;
+}
+.frame-child {
+  height: 89px;
+  width: 263px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  border: 4px dashed var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.i {
+  width: 83.3px;
+  font-size: 36px;
+  line-height: 42px;
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-abel);
+  color: var(--color-white);
+  text-align: left;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent,
+.submit-button-area {
+  width: 139px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 4px dashed var(--color-white);
+  padding: var(--padding-xl) 81px;
+  background-color: var(--color-darkslateblue);
+  width: 263px;
+  border-radius: var(--br-3xs);
+}
+.rectangle-parent:hover {
+  background-color: #6169ab;
+  border: 4px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.submit-button-area {
+  width: 753px;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.content-area,
+.password-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password-field {
+  width: 767px;
+  gap: var(--gap-8xl);
+}
+.content-area {
+  margin: 0;
+  width: 862px;
+  gap: 33px;
+}
+.log-in-screen2,
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 1330px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.log-in-screen2 {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2px 0 18px;
+  gap: 22px;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+@media screen and (max-width: 750px) {
+  .i {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .full-name,
+  .password,
+  .email_,
+  .usernames {
+    font-size: var(--font-size-xl);
+  }
+  .i {
+    font-size: 22px;
+  }
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .content-area {
+    gap: 16px;
+  }
+}

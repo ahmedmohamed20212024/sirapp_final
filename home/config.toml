@@ -1,0 +1,44 @@
+[client]
+showSidebarNavigation = false
+
+[[pages]]
+path = "logo.py"
+name = "logo"
+icon = ":logo:"
+
+[[pages]]
+path = "login.py"
+name = "login"
+icon = ":login:"
+
+
+[[pages]]
+path = "register.py"
+name = "register"
+icon = ":register:"
+
+[[pages]]
+path = "contact.py"
+name = "contact"
+icon = ":contact:"
+
+[[pages]]
+path = "home.py"
+name = "home"
+icon = ":home:"
+
+[[pages]]
+path = "cv_home.py"
+name = "cv_home"
+icon = ":cv_home:"
+
+
+[[pages]]
+path = "cv_details.py"
+name = "cv_details"
+icon = ":cv_details:"
+
+[[pages]]
+path = "services.py"
+name = "services"
+icon = ":services:"
