@@ -72,14 +72,14 @@ st.markdown(
 
 show_pages(
     [
-        Page("home/logo.py", "logo", "🏠"),
-        Page("home/login.py", "login", "🏠"),
-        Page("home/register.py", "register", "🏠"),
-        Page("home/contact.py", "contact", "🏠"),
-        Page("home/home.py", "home", "🏠"),
-        Page("home/cv_home.py", "cv_home", "🏠"),
-        Page("home/cv_details.py", "cv_details", "🏠"),
-        Page("home/services.py", "services", "🏠"),
+        Page("logo.py", "logo", "🏠"),
+        Page("login.py", "login", "🏠"),
+        Page("register.py", "register", "🏠"),
+        Page("contact.py", "contact", "🏠"),
+        Page("home.py", "home", "🏠"),
+        Page("cv_home.py", "cv_home", "🏠"),
+        Page("cv_details.py", "cv_details", "🏠"),
+        Page("services.py", "services", "🏠"),
     ]
 )
 
